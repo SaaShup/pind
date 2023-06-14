@@ -1,0 +1,2 @@
+docker build -t saashup/pind .
+docker run --privileged -p 8080:8080 -p 8081:8081 saashup/pind
